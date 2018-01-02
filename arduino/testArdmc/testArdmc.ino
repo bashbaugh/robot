@@ -4,6 +4,12 @@ const int tright = 7;
 const int forward = 11;
 const int backward = 10;
 
+void setup() {
+  pinMode(tleft, OUTPUT);
+  pinMode(tright, OUTPUT);
+  pinMode(forward, OUTPUT);
+  pinMode(backward, OUTPUT);
+}
 
 void loop() {
   delay(4000);
