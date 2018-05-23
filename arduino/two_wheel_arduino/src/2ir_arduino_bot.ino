@@ -148,7 +148,7 @@ void findClearRoute()
 void avoidObstacles()
 {
   justTurnedRight = justTurnedLeft = false;
-  forward(FULL);
+  //forward(FULL);
   delay(50);
   if(!digitalRead(ir_right) && !digitalRead(ir_left)){
     findClearRoute();    
@@ -188,7 +188,7 @@ byte x;
 void loop()
 { 
   code = 210;
-  //avoidObstacles();  
+  avoidObstacles();  
   if(Serial.available() > 0) {
     code = Serial.read();
     //Serial.flush();
