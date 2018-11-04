@@ -2,8 +2,8 @@ const byte left_forward = 11;
 const byte left_backward = 10;
 const byte right_forward = 6;
 const byte right_backward = 5;
-const byte ir_right = 2; 
-const byte ir_left = 12;
+const byte ir_right = 2; // Don't worry about this
+const byte ir_left = 12; // Or this
 const byte led = 13;
 
 bool justTurnedLeft, justTurnedRight;
@@ -188,7 +188,7 @@ byte x;
 void loop()
 { 
   code = 210;
-  avoidObstacles();  
+  //avoidObstacles();  // This functionality isn't working properly right now
   if(Serial.available() > 0) {
     code = Serial.read();
     //Serial.flush();
