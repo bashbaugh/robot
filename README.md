@@ -15,5 +15,5 @@ in `d2/manage.py`, replace all mentoins of `PCA9685` with `two_wheel_arduino`.
 
 ### Please note:
 
-This code is somewhat outdated and hard-to-understand, so you'll probably run into less frustration if you just write your own. Feel free to ask me for help!
+This code is somewhat outdated, unorganized, and hard-to-understand, so you'll probably run into less frustration if you just write your own. Feel free to ask me for help!
 
