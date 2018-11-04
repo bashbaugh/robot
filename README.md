@@ -1,4 +1,4 @@
-# robot
+# Robot
 Code for the robot i am building, based off the donkey car   (http://www.donkeycar.com/)
 
 
@@ -13,5 +13,7 @@ replaced with this file.
 
 in `d2/manage.py`, replace all mentoins of `PCA9685` with `two_wheel_arduino`.
 
+### Please note:
 
+This code is somewhat outdated and hard-to-understand, so you'll probably run into less frustration if you just write your own. Feel free to ask me for help!
 
